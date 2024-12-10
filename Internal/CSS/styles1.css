@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    
+}
+
+
+html{
+    background-color: #ffffff;
+    color: #555;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+
+.text-area{
+    width: 1140px; 
+    position: absolute;
+    top: 50%;
+    
+}
+
+
+
+.bg-img1{
+    background-image: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url("images/hero.jpg");
+}
+
+.bg-img2{
+    background-image: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url("images/1.jpg");
+}
+
+.bg-img3{
+    background-image: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url("images/2.jpg");
+}
+
+.carousel-img{
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.carousel-slide{
+    transition: 0.7s;
+}
+
+.nav-item{
+    transition: 0.5s;
+   
+}
+.nav-item:hover{
+    transform: translateY(-5px) scale(1.2);
+    color:greenyellow;
+}
+
+
+.nav-item:hover a{
+    color:greenyellow;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+@media (max-width:800px){
+   .navbar{
+    background-color: black;
+   }
+
+   .nav-one button{
+        /* background: linear-gradient(120deg,rgb(159, 155, 33),rgb(47, 209, 72),rgb(138, 137, 138)); */
+        background-color: gray;
+        border: none;
+        border-radius: 20%;
+        transform: scale(0.7);        
+   }
+
+   .nav-item{
+    margin-top:10px;
+    margin-bottom: 10px;
+   }
+   
+   .nav-item:hover{
+    transform: translateY(0) scale(1.1) translateX(10px);
+    color:greenyellow;
+}
+
+   
+} 

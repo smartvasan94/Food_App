@@ -26,15 +26,15 @@ html{
 
 
 .bg-img1{
-    background-image: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url("images/hero.jpg");
+    background-image: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url("Images/hero.jpg");
 }
 
 .bg-img2{
-    background-image: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url("images/1.jpg");
+    background-image: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url("Images/1.jpg");
 }
 
 .bg-img3{
-    background-image: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url("images/2.jpg");
+    background-image: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url("Images/2.jpg");
 }
 
 .carousel-img{
